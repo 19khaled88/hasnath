@@ -1,0 +1,65 @@
+export const banner =[
+    {
+        id:1,
+        image:'/banner/pic-1.jpg'
+    },
+    {
+        id:2,
+        image:'/banner/pic-2.jpg'
+    },
+    {
+        id:3,
+        image:'/banner/pic-3.jpg'
+    },
+    {
+        id:4,
+        image:'/banner/pic-4.jpg'
+    },
+    {
+        id:5,
+        image:'/banner/pic-5.jpg'
+    },
+    {
+        id:6,
+        image:'/banner/pic-6.jpg'
+    },
+]
+
+export const event =[
+    {
+        id:1,
+        image:'/shoots/one.jpg'
+    },
+    {
+        id:2,
+        image:'/shoots/two.jpg'
+    },
+    {
+        id:3,
+        image:'/shoots/three.jpg'
+    },
+    {
+        id:4,
+        image:'/shoots/four.jpg'
+    },
+    {
+        id:6,
+        image:'/shoots/six.jpg'
+    },
+    {
+        id:7,
+        image:'/shoots/seven.jpg'
+    },
+    {
+        id:8,
+        image:'/shoots/eight.jpg'
+    },
+    {
+        id:9,
+        image:'/shoots/nine.jpg'
+    },
+    {
+        id:5,
+        image:'/shoots/five.jpg'
+    }
+]

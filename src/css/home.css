@@ -1,0 +1,10 @@
+.home > div:nth-child(1) > ul > li > div{
+    height: 300px;
+}
+.banner-slide{
+    height: 300px;
+}
+.banner-slide > img{
+    width:100%;
+}
+

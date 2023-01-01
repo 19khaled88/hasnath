@@ -1,0 +1,87 @@
+.recentwork{
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+}
+.recentwork > div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card > div:nth-child(1){
+    height:50% ;
+}
+.card > div:nth-child(2){
+    height:50% ;
+}
+
+
+@media (min-width: 376px) { 
+    .recentwork > div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .recentwork > div:nth-child(2) > div{
+        width: 90%;
+        margin: auto;
+    }
+   
+}
+
+/*Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 679px) { 
+    .recentwork > div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recentwork > div:nth-child(2) > div{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) { 
+    /* .recentwork > div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    } */
+ }
+
+/*Large devices (desktops, 992px and up)*/ 
+/* @media (min-width: 992px) { ... } */
+
+/*Large devices (desktops, 1024px and up)*/ 
+@media (min-width: 1024px) { 
+    .recentwork > div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .recentwork > div:nth-child(2) > div{
+        width: 90%;
+        margin: auto;
+    }
+ }
+
+/*X-Large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) {  
+     .recentwork > div:nth-child(2){
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .recentwork > div:nth-child(2) > div{
+        width: 90%;
+        margin: auto;
+    } 
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/ 
+/* @media (min-width: 1400px) { ... } */

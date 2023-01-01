@@ -1,0 +1,63 @@
+.NavContainer{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ padding-bottom: 8px;
+}
+.Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.Nav > ul:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  height: 60px;
+  margin-bottom: 0px;
+}
+.nav > ul:nth-child(2) > li{
+  text-decoration: none;
+  height: 100%;
+}
+.Nav > ul:nth-child(2) > li > a{
+  text-decoration: none;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Auth{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  border-bottom: solid 0.1em gold;
+  border-bottom-color: hsla(100%, 50%, 25%, 0.75);
+}
+.Auth > button{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  width:  100px;
+}
+.Auth > button:nth-child(1){
+  background-color: gray;
+}
+.Auth > button:nth-child(2){
+  background-color: #0b5ed7;
+  color: white;
+}
