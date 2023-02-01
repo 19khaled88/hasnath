@@ -1,14 +1,16 @@
-import { Route, Routes } from 'react-router-dom'
-import './App.css'
-import LandingPage from './components/LandingPage'
-import Navbar from './components/Navbar'
+import {RouterProvider} from 'react-router-dom'
+import routes from './routes/routes'
+// import Booking from './components/Booking'
+// import Contact from './components/Contact'
+// import Gallery from './components/Gallery'
+// import LandingPage from './components/LandingPage'
+// import Navbar from './components/Navbar'
+// import Pricing from './components/Pricing'
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-      </Routes>
+     <RouterProvider router={routes} />
     </div>
   )
 }

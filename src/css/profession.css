@@ -1,0 +1,51 @@
+.profcontainer{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.down-up{
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-bottom: 0;
+    border-top: 30px solid red;
+    margin: auto;
+}
+
+.profcontainer >  h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+   
+}
+
+.professions{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    
+}
+
+.professions > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.professions > div > p:nth-child(1){
+    flex: 1;
+}
+.professions > div > div:nth-child(2){
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+}
+.professions > div > div:nth-child(2) > img{
+    width: 50%;
+    height: 100%;
+    flex: 1;
+    
+}

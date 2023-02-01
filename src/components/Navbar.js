@@ -1,31 +1,39 @@
 import React from 'react'
-import '../css/headers.css'
-import {Link} from 'react-router-dom'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import '../css/nav.css'
+import { navIcon } from '../data/data'
+
+
+
 const Navbar = () => {
+  const [status, setStatus]=useState('Gallery')
+  const pageHandle=(data)=>{
+    setStatus(data)
+  }
   return (
-    <div className="NavContainer">
-      <div className="Nav">
-        <img src="/images/photo-shoot.png" alt="No Image" width="50px" height="50px"/>
-        <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/gallery">Gallery</Link>
-            </li>
-            <li>
-                <Link to="/about">About</Link>
-            </li>
-            <li>
-                <Link to="/contact">Contact</Link>
-            </li>
-        </ul>
+    <div className='Navbar-container'>
+      <div className='inner'>
+        <div className='logo'>Logo</div>
       </div>
-      <div className="Auth">
-        <button>Login</button>
-        <button>Sign-up</button>
+      <div className='shape'>
+        <div className='pages'>
+            <ul>
+                {
+                    navIcon.map((item)=>(   
+                        <li onClick={()=>pageHandle(item.title)} className={`list ${item.title === status ? 'active' : 'inactive'}`}>
+                            <Link to="#">
+                                {item.text}
+                                {/*<span className='icon'><img src={item.icon} alt={"No Image"} width="20px" /></span> */}
+                                <span className='text'>{item.title}</span>
+                            </Link>
+                        </li>
+                    ))
+                }
+                <div className='indicator'></div>
+            </ul>
+        </div>
       </div>
-      
     </div>
   )
 }

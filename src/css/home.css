@@ -1,3 +1,4 @@
+.home{}
 .home > div:nth-child(1) > ul > li > div{
     height: 300px;
 }
@@ -8,3 +9,92 @@
     width:100%;
 }
 
+.chatCon{
+    width: 270px;
+    height: 250px;
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+}
+.chat-box{
+    height: 90%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: relative;
+}
+.chat-header{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    height: 15%;
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.msg-area{
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.msg-area > p:nth-child(1){
+   
+    text-align: left;
+    border-radius: 5px;
+}
+.msg-area > p:nth-child(2){
+  
+    text-align: right;
+   
+    border-radius: 5px;
+}
+.msg-area > p:nth-child(3){
+   
+    text-align: left;
+    border-radius: 5px;
+}
+.msg-area > p:nth-child(4){
+    
+    text-align: right;
+    border-radius: 5px;
+}
+.msg-area > p:nth-child(5){
+   
+    text-align: left;
+    border-radius: 5px;
+}
+.msg-area > p:nth-child(6){
+    
+    text-align: right;
+    border-radius: 5px;
+}
+.footer{
+    position: absolute;
+    bottom:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+.footer > div:nth-child(1){
+    width:200px;
+    height: 100%;
+}
+.footer > div:nth-child(1) > input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer > div:nth-child(2) > img{
+    
+    margin-right: 5px;
+}
+
+.pop{
+   
+    position: fixed;
+    bottom: 1%;
+    right: 5%;
+}
