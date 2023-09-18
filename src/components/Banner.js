@@ -3,6 +3,7 @@ import React from 'react'
 import ContentLoader from 'react-content-loader'
 import { useQuery } from 'react-query'
 import '../css/banner.css'
+import axiosBaseUrl from '../utils/postRequest'
 const Banner = () => {
   const showBanner = (input) => {
     return input.map((dt,index) => (
@@ -14,9 +15,9 @@ const Banner = () => {
   }
 
   const { isLoading, error, data } = useQuery('repoDAta', () =>
-    fetch('http://localhost:9000/api/v1/banner').then((res) => res.json()),
+    // fetch('https://photography-server-omega.vercel.app/api/v1/banner').then((res) => res.json()),
+    axiosBaseUrl.get('/banner').then((res)=>res.data)
   )
-
   if (isLoading)
     return (
       <ContentLoader

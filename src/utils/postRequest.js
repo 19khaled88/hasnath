@@ -11,7 +11,8 @@ import Axios from 'axios'
 // }
 
 const axiosBaseUrl = Axios.create({
-    baseURL:'http://localhost:9000/api/v1'
+    // baseURL:'http://localhost:9000/api/v1'
+    baseURL:`https://photography-server-omega.vercel.app/api/v1/`
 })
 
 export default axiosBaseUrl;
