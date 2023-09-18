@@ -450,6 +450,7 @@ export const gallery = [
     original: '/marriage/one.jpg',
     width: 1.5,
     height: 1,
+    text:'Hover title one'
   },
   {
     id: 2,
@@ -457,6 +458,7 @@ export const gallery = [
     original: '/marriage/two.jpg',
     width: 1,
     height: 1,
+    text:'Hover title two'
   },
   {
     id: 3,
@@ -464,6 +466,7 @@ export const gallery = [
     original: '/marriage/three.jpg',
     width: 1,
     height: 1,
+    text:'Hover title three'
   },
   {
     id: 4,
@@ -471,6 +474,7 @@ export const gallery = [
     original: '/marriage/four.jpg',
     width: 1,
     height: 1,
+    text:'Hover title four'
   },
   {
     id: 5,
@@ -478,6 +482,7 @@ export const gallery = [
     original: '/marriage/five.jpg',
     width: 1.2,
     height: 1,
+    text:'Hover title five'
   },
   {
     id: 6,
@@ -485,6 +490,7 @@ export const gallery = [
     original: '/marriage/six.jpg',
     width: 1.2,
     height: 1,
+    text:'Hover title six'
   },
   {
     id: 7,
@@ -492,6 +498,7 @@ export const gallery = [
     original: '/marriage/seven.jpg',
     width: 1,
     height: 1,
+    text:'Hover title seven'
   },
   {
     id: 8,
@@ -499,6 +506,7 @@ export const gallery = [
     original: '/marriage/eight.jpg',
     width: 1,
     height: 1,
+    text:'Hover title eight'
   },
   {
     id: 9,
@@ -506,6 +514,7 @@ export const gallery = [
     original: '/marriage/nine.jpg',
     width: 0.6,
     height: 1,
+    text:'Hover title nine'
   },
   {
     id: 10,
@@ -513,6 +522,7 @@ export const gallery = [
     original: '/marriage/ten.jpg',
     width: 1.4,
     height: 1,
+    text:'Hover title ten'
   },
   {
     id: 11,
@@ -520,6 +530,7 @@ export const gallery = [
     original: '/marriage/eleven.jpg',
     width: 1.4,
     height: 1,
+    text:'Hover title eleven'
   },
   {
     id: 12,
@@ -527,6 +538,7 @@ export const gallery = [
     original: '/marriage/twelev.jpg',
     width: 0.6,
     height: 1,
+    text:'Hover title twelev'
   },
   {
     id: 13,
@@ -534,6 +546,7 @@ export const gallery = [
     original: '/marriage/thirteen.jpg',
     width: 1.5,
     height: 1,
+    text:'Hover title thirteen'
   },
   {
     id: 14,
@@ -541,6 +554,7 @@ export const gallery = [
     original: '/marriage/fourteen.jpg',
     width: 1.5,
     height: 1,
+    text:'Hover title fourteen'
   },
   {
     id: 15,
@@ -548,6 +562,7 @@ export const gallery = [
     original: '/marriage/fifteen.jpg',
     width: 1.5,
     height: 1,
+    text:'Hover title fivteen'
   },
   {
     id: 16,
@@ -555,6 +570,7 @@ export const gallery = [
     original: '/marriage/sixteen.jpg',
     width: 1,
     height: 1,
+    text:'Hover title sixteen'
   },
   {
     id: 17,
@@ -562,6 +578,7 @@ export const gallery = [
     original: '/marriage/seventeen.jpg',
     width: 2,
     height: 1,
+    text:'Hover title seventeen'
   },
   {
     id: 18,
@@ -569,6 +586,7 @@ export const gallery = [
     original: '/marriage/eighteen.jpg',
     width: 2,
     height: 1,
+    text:'Hover title eighteen'
   },
   {
     id: 19,
@@ -576,6 +594,7 @@ export const gallery = [
     original: '/marriage/ninteen.jpg',
     width: 2,
     height: 1,
+    text:'Hover title ninteen'
   },
   {
     id: 20,
@@ -583,6 +602,7 @@ export const gallery = [
     original: '/marriage/tweenteen.jpg',
     width: 1,
     height: 1,
+    text:'Hover title twenteen'
   },
   {
     id: 21,
@@ -590,6 +610,7 @@ export const gallery = [
     original: '/marriage/twentyone.jpg',
     width: 1,
     height: 1,
+    text:'Hover title twenty one'
   },
   {
     id: 22,
@@ -597,6 +618,7 @@ export const gallery = [
     original: '/marriage/twentytwo.jpg',
     width: 2,
     height: 1,
+    text:'Hover title twenty two'
   },
 ]
 
