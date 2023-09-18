@@ -748,7 +748,7 @@ export const corporate = [
     src: '/corporate/corporate-forteen.jpg',
     title: 'title one',
     width: 1500,
-    height: 1000,
+    height: 1125,
   },
 ]
 

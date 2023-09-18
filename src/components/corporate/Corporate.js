@@ -25,6 +25,7 @@ const Corporate = () => {
     const reactPhotoGallery = document.getElementsByClassName(
       "react-photo-gallery--gallery"
     )[0];
+    
     const temp = reactPhotoGallery.querySelectorAll("img");
     for (let x = 0; x < temp.length; x++) {
       var elem = document.createElement('div')
@@ -32,11 +33,14 @@ const Corporate = () => {
       elem.setAttribute('height',temp[x].height)
       elem.className = 'newImg'
       if(temp[x].id  ){
-        console.log(temp[x].width)
-        temp[x].setAttribute('100%')
-        temp[x].setAttribute('100%')
+        
+        // temp[x].setAttribute('width','100%')
+        // temp[x].setAttribute('height','100%')
+        // temp[x].removeAttribute('height')
+        // temp[x].removeAttribute('width')
         let child1 = reactPhotoGallery.querySelector('div').appendChild(elem)
         child1.appendChild(temp[x])
+        temp[x].setAttribute('height',temp[x].height)
       }
     }
   }, 1000);
