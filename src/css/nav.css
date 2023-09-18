@@ -1,4 +1,71 @@
 
+.logo{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.Navbar-container{
+    background-color: #ca409e;
+    height: 81px;
+
+    
+    position: relative;
+    /* position: fixed;
+    width: 100%;
+    top:0;
+    transition: .6s; */
+}
+.Navbar-container > .inner{
+
+    /* position: fixed;
+    top:0;
+    transition: 0.6s;
+    background-color: #ca409e; */
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* z-index: 100000; */
+    height:70px;
+    margin: auto;
+}
+.menu-icon{
+    color: white;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.menu-icon > svg{
+    width: 100%;
+    height: 100%;
+}
+
+.sticky{
+    position: fixed;
+    box-shadow: 0 5px 16px rgba(230, 207, 8, 0.1);
+    padding: 0 0;
+    top:0;
+    z-index: 10000;
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.85s ease-out;
+}
+
+.sticky > .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:70px;
+    margin: auto;
+}
 
 
 
@@ -6,7 +73,33 @@
 
 
 @media screen and (min-width: 400px) {
-  
+    .responsiveIcons.active{
+        position: absolute;
+        z-index: 9;
+        top:70px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding: 2px 2px;
+        font-size: 18px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .responsiveIcons > a{
+        background-color:#a01d9d;
+        width: 98%;
+        padding: 4px 4px 4px 18px;
+        margin: auto;
+        color: white;
+    }
+    
+    .responsiveIcons.inactive{
+        display: none;
+        transition: .5s;
+    }
+    .pages{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -22,35 +115,25 @@
 }
 
 @media screen and (min-width: 992px) {
+    .shape{
+        display: none;
+    }
 
+   
+    
 }
 
 @media screen and (min-width: 1024px) {
-
-}
-
-@media screen and (min-width: 1200px) {
-    .Navbar-container{
-        background-color: #C060A1;
-        height: 70px;
-        position: relative;
-    }
-    .inner{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
-        height: 100%;
-        margin: auto;
-    }
     .shape > .pages{
         font-size: 20px;
         position: relative;
         height: 70px;
-        background-color: #334756;
+        /* background-color: #334756; */
         border-radius: 10px;
         padding: 5px 20px 5px 20px;
+    }
+    .pages{
+        display: block;
     }
     .pages > ul{
         /* display: grid;
@@ -90,7 +173,7 @@
         transform: translateY(-8px);
         color: #29fd53;
     }
-
+    
     .pages > ul > li > a .text{
         position: absolute;
         opacity: 0;
@@ -102,7 +185,7 @@
         text-transform: uppercase;
         transform: translateY(25px);
     }
-
+    
     .pages > ul > li.active > a .text{
         transform: translateY(18px);
         opacity: 1;
@@ -127,7 +210,7 @@
         background: #DA0037;
         border-radius: 10px;
     }
-
+    
     .pages > ul .indicator::after{
         content: '';
         position: absolute;
@@ -136,14 +219,14 @@
         height: 7.5px;
         border-radius: 50%;
         box-shadow: 0 0 0 2px #29C7AC,
-
+    
         50px 50px #FA7D09,
         40px 0 #29fd53,
         0 40px #FF0000;
         transform: rotate(45deg);
         animation: animate 2s ease-in-out infinite;
     }
-
+    
     @keyframes animate {
         0%, 100%{
             transform: rotate(35deg);
@@ -152,7 +235,7 @@
             transform: rotate(55deg);
         }
     }
-
+    
     .pages > ul > li:nth-child(2).active ~.indicator{
         transform: translateX(calc(70px * 1));
     }
@@ -165,11 +248,15 @@
     .pages > ul > li:nth-child(5).active ~.indicator{
         transform: translateX(calc(70px * 4));
     }
+    .pages > ul > li:nth-child(6).active ~.indicator{
+        transform: translateX(calc(70px * 5));
+    }
 
     .shape{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        gap:10px;
         padding-right: 5%;
         align-items: center;
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -181,4 +268,22 @@
         z-index: 99;
         height: 90px;
     }
+
+   .menu-icon{
+    display: none;
+   }
+
+   .responsiveIcons.active{
+    display: none;
+   }
+   .responsiveIcons > a{
+    display: none;
+   }
+   .responsiveIcons.inactive{
+    display: none;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   
 }

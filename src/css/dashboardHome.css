@@ -1,0 +1,17 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.submitForm label{
+    font-size: 18px;
+    font-weight: 500;
+}

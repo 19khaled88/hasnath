@@ -1,0 +1,147 @@
+.booking-container{
+    padding-top: 30px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.booking-container > h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.booking-form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    justify-content: center;
+    width: 30%;
+}
+.booking-form >  span , .booking-form > select{
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d9edf7;
+}
+.booking-form > span > label {
+    flex:.5;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #d9edf7;
+}
+.booking-form > span > input{
+    height: 100%;
+    flex: auto;
+    background-color: #d9edf7;
+ 
+}
+
+.booking-form > span > input:focus{
+    outline: none;
+}
+.booking-form > span:last-child{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.booking-form > span:last-child > img{
+    flex: .2;
+    height: 40px;
+    border: 1px solid gray;
+   
+}
+.booking-form > span:last-child > button{
+    flex:.6;
+    height: 100%;
+    border: none;
+    background-color: #B3005E;
+    color: white;
+    font-size: 20px;
+}
+
+.shapes > img:nth-child(1){
+    position: absolute;
+    top: 90%;
+    z-index: -1;
+    left: -10%;
+    width: 20%;
+}
+.shapes > img:nth-child(2){
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    right: -50px;
+    width: 20%;
+    
+}
+.shapes > img:nth-child(3){
+    position: absolute;
+    top: 50%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    width: 20%;
+}
+.shapes > img:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    z-index: -2;
+    width: 20%;
+}
+
+
+@media screen and (min-width: 400px) {
+  .booking-form{
+    width: 85%;
+  }
+   
+}
+
+@media screen and (min-width: 600px) {
+    .booking-form{
+        width: 65%;
+      }
+}
+
+@media screen and (min-width: 768px) {
+  .booking-form{
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 830px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+    .booking-form{
+        width: 45%;
+      }
+     
+}
+
+@media screen and (min-width: 1024px) {
+    .booking-form{
+        width: 40%;
+      }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .booking-form{
+        width: 35%;
+      }
+
+}

@@ -1,0 +1,29 @@
+.bannerContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.actionBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.actionBtn > button svg{
+    margin: auto;
+   
+}
+.actionBtn  >label svg{
+    margin: auto;
+}
+
+.submitForm label{
+    font-size: 18px;
+    font-weight: 500;
+}

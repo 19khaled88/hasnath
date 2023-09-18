@@ -1,0 +1,89 @@
+.contact-container{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.contact-container > div{
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    padding: 20px;
+}
+.contact-container > div:nth-child(1) > p{
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+}
+.contact-container > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.contact-container > div:nth-child(2) > h2{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+div > form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div > form > span{
+    display: flex;
+    flex-direction: column;
+}
+div > form > span > input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+div > form > span > textarea {
+    border:  1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* .contact-container > div:nth-child(2) > form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 80%;
+   
+}
+.contact-container > div:nth-child(2) > form > span{
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact-container > div:nth-child(2) > form > textarea{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+} */
+.contact-container > div:nth-child(2) > form > button{
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #b3005e;
+    color: white;
+}
+/* .contact-container > div:nth-child(2) > form > span > label{
+    flex: .15;
+    padding-left: 10px;
+}
+
+
+.contact-container > div:nth-child(2) > form > span > input{
+    outline: none;
+    flex: .85;
+} */
