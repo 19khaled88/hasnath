@@ -29,10 +29,9 @@
 .hoverText {
   color: white;
   /* font-size: 20px; */
-
   position: absolute;
   top: 50%;
-  left: 60px;
+  left: 70px;
   /* left: 50%; */
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

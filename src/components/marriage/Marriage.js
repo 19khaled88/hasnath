@@ -24,11 +24,12 @@ const Marriage = () => {
     const gridGallery = document.getElementsByClassName("ReactGridGallery");
     const temp = gridGallery[0].querySelector("div");
     const temp1 = temp.getElementsByClassName("ReactGridGallery_tile");
-
+    
+    
     for (let i = 0; i < Object.keys(temp1).length; i++) {
       let divElem1 = document.createElement("div");
       let divElem3 = document.createElement("div");
-
+      
       divElem1.setAttribute("class", "hoverOverlay");
       divElem3.setAttribute("class", "hoverText");
       const divInsert = temp1[i].getElementsByClassName(
@@ -39,7 +40,7 @@ const Marriage = () => {
       divInsert1.appendChild(divElem3);
       divInsert
         .getElementsByTagName("div")[0]
-        .getElementsByClassName("hoverText")[0].innerHTML = "Hello hover";
+        .getElementsByClassName("hoverText")[0].innerHTML = Object.values(images)[0].caption;
     }
   }, 1000);
 

@@ -18,8 +18,7 @@ export const images = [
     original: '/marriage/one.jpg',
     width: 826,
     height: 475,
-    caption: 'Caption portion',
-    caption1: 'Caption portion 1',
+    caption: 'Caption portion 1',
     type: 'wedding',
   },
   {
@@ -28,8 +27,7 @@ export const images = [
     original: '/marriage/two.jpg',
     width: 4001,
     height: 4001,
-    caption: 'Caption portion',
-    caption1: 'Caption portion 1',
+    caption: 'Caption portion 2',
     type: 'birthday',
   },
   {
@@ -38,8 +36,7 @@ export const images = [
     original: '/marriage/three.jpg',
     width: 2000,
     height: 2000,
-    caption: 'Caption portion',
-    caption1: 'Caption portion 1',
+    caption: 'Caption portion 3',
     type: 'wedding',
   },
   {
@@ -48,8 +45,7 @@ export const images = [
     original: '/marriage/four.jpg',
     width: 740,
     height: 555,
-    caption: 'Caption portion',
-    caption1: 'Caption portion 1',
+    caption: 'Caption portion 4',
     type: 'corporate',
   },
   {
@@ -58,8 +54,7 @@ export const images = [
     original: '/marriage/five.jpg',
     width: 740,
     height: 493,
-    caption: 'Caption portion',
-    caption1: 'Caption portion 1',
+    caption: 'Caption portion 5',
     type: 'wedding',
   },
   {
@@ -69,7 +64,6 @@ export const images = [
     width: 740,
     height: 493,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -79,7 +73,6 @@ export const images = [
     width: 740,
     height: 555,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'wedding',
   },
   {
@@ -89,7 +82,6 @@ export const images = [
     width: 740,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -99,7 +91,6 @@ export const images = [
     width: 360,
     height: 540,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'birthday',
   },
   {
@@ -109,7 +100,6 @@ export const images = [
     width: 740,
     height: 604,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'wedding',
   },
   {
@@ -119,7 +109,6 @@ export const images = [
     width: 740,
     height: 522,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'corporate',
   },
   {
@@ -129,7 +118,6 @@ export const images = [
     width: 360,
     height: 540,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -139,7 +127,6 @@ export const images = [
     width: 740,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'birthday',
   },
   {
@@ -149,7 +136,6 @@ export const images = [
     width: 740,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -159,7 +145,6 @@ export const images = [
     width: 740,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'wedding',
   },
   {
@@ -169,7 +154,6 @@ export const images = [
     width: 360,
     height: 540,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -179,7 +163,6 @@ export const images = [
     width: 826,
     height: 406,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'birthday',
   },
   {
@@ -189,7 +172,6 @@ export const images = [
     width: 740,
     height: 493,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'corporate',
   },
   {
@@ -199,7 +181,6 @@ export const images = [
     width: 740,
     height: 493,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'pre-wedding',
   },
   {
@@ -209,7 +190,6 @@ export const images = [
     width: 740,
     height: 740,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'wedding',
   },
   {
@@ -219,7 +199,6 @@ export const images = [
     width: 360,
     height: 441,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'corporate',
   },
   {
@@ -229,7 +208,6 @@ export const images = [
     width: 740,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'birthday',
   },
   {
@@ -239,7 +217,6 @@ export const images = [
     width: 840,
     height: 494,
     caption: 'Caption portion',
-    caption1: 'Caption portion 1',
     type: 'birthday',
   },
 ]

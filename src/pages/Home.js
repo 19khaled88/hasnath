@@ -8,7 +8,7 @@ import "../css/open.css";
 
 import Marriage from "../components/marriage/Marriage";
 import Birthday from "../components/birthday/Birthday";
-// import Corporate from "../components/corporate/Corporate";
+import Corporate from "../components/corporate/Corporate";
 
 // import JustifiedGrid from 'react-justified-grid'
 
@@ -19,6 +19,7 @@ const Home = () => {
       <div className="home-container">
         <Marriage />
         <Birthday />
+        <Corporate />
       </div>
     </div>
   );
