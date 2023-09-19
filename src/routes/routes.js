@@ -3,7 +3,7 @@ import Contact from '../components/Contact'
 // import Dashboard from "../components/dashboard/Dashboard";
 
 import DashboardLayout from '../components/dashboard/DashboardLayout'
-import Gallery from '../components/Gallery'
+
 import Layout from '../Layout/Layout'
 import Home from '../pages/Home'
 import Price from '../pages/Pricing'
@@ -12,6 +12,8 @@ import GalleryAdmin from '../components/dashboard/GalleryAdmin'
 import HomePageAdmin from '../components/dashboard/HomeAdmin'
 import PricingAdmin from '../components/dashboard/PricingAdmin'
 import ContactAdmin from '../components/dashboard/ContactAdmin'
+import ImageGallery from '../components/gallery/Gallery'
+
 
 const { createBrowserRouter } = require('react-router-dom')
 
@@ -30,7 +32,7 @@ const routes = createBrowserRouter([
       },
       {
         path: '/gallery',
-        element: <Gallery />,
+        element: <ImageGallery />,
       },
       {
         path: '/booking',

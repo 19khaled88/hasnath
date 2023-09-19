@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Typed from "react-typed";
-import "../../css/gallery.css";
+import "../../css/marriage.css";
 import Lightbox from "yet-another-react-lightbox";
 import { images as IMAGES } from "../../data/data";
 const Marriage = () => {

@@ -251,39 +251,48 @@ export const banner = [
 export const event = [
   {
     id: 1,
-    image: '/shoots/one.jpg',
+    image: '/shoots/one.jpg', width: 1080, height: 800,
+    type:'camera'
   },
   {
     id: 2,
-    image: '/shoots/two.jpg',
+    image: '/shoots/two.jpg', width: 1080, height: 1620,
+    type:'shooter'
   },
   {
     id: 3,
-    image: '/shoots/three.jpg',
+    image: '/shoots/three.jpg',width: 1080, height: 720,
+    type:'camera'
   },
   {
     id: 4,
-    image: '/shoots/four.jpg',
+    image: '/shoots/four.jpg',width: 1080, height: 721,
+    type:'football'
   },
   {
     id: 6,
-    image: '/shoots/six.jpg',
+    image: '/shoots/six.jpg',width: 1080, height: 1620,
+    type:'shooter'
   },
   {
     id: 7,
-    image: '/shoots/seven.jpg',
+    image: '/shoots/seven.jpg',width: 1080, height: 607,
+    type:'camera'
   },
   {
     id: 8,
-    image: '/shoots/eight.jpg',
+    image: '/shoots/eight.jpg',width: 1080, height: 608,
+    type:'camera'
   },
   {
     id: 9,
-    image: '/shoots/nine.jpg',
+    image: '/shoots/nine.jpg',width: 1080, height: 720,
+    type:'camera'
   },
   {
     id: 5,
-    image: '/shoots/five.jpg',
+    image: '/shoots/five.jpg',width: 1080, height: 1549,
+    type:'star'
   },
 ]
 
